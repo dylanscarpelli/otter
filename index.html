@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ottergram</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
   <link rel="stylesheet" href="stylesheets/styles.css">
@@ -15,75 +16,54 @@
   <main class="main-content">
     <ul class="thumbnail-list">
       <li class="thumbnail-item">
-        <a href="#">
-          <img class="thumbnail-image" src="ottergram-resources/img/otter1.jpg" alt="Barry">
-          <span class="thumbnail-title">Barry</span>
-        </a>
-      </li>
-      <li class="thumbnail-item">
-        <a href="#">
-          <img class="thumbnail-image" src="ottergram-resources/img/otter2.jpg" alt="Garry">
+        <a href="ottergram-resources/img/otter1.jpg" data-image-role="trigger" data-image-title="Stayin' Alive" data-image-url="img/otter1.jpg">
+          <img class="thumbnail-image" src="ottergram-resources/img/otter1.jpg" alt="Garry">
           <span class="thumbnail-title">Garry</span>
         </a>
       </li>
       <li class="thumbnail-item">
-        <a href="#">
-          <img class="thumbnail-image" src="ottergram-resources/img/otter3.jpg" alt="Larry">
+        <a href="ottergram-resources/img/otter2.jpg" data-image-role="trigger" data-image-title="How Deep Is Your Love" data-image-url="img/otter2.jpg">
+          <img class="thumbnail-image" src="ottergram-resources/img/otter2.jpg" alt="Larry">
           <span class="thumbnail-title">Larry</span>
         </a>
       </li>
       <li class="thumbnail-item">
-        <a href="#">
-          <img class="thumbnail-image" src="ottergram-resources/img/otter4.jpg" alt="Harry">
+        <a href="ottergram-resources/img/otter3.jpg" data-image-role="trigger" data-image-title="You Should Be Dancing" data-image-url="img/otter3.jpg">
+          <img class="thumbnail-image" src="ottergram-resources/img/otter3.jpg" alt="Harry">
           <span class="thumbnail-title">Harry</span>
         </a>
       </li>
       <li class="thumbnail-item">
-        <a href="#">
-          <img class="thumbnail-image" src="ottergram-resources/img/otter5.jpg" alt="Quarry">
+        <a href="ottergram-resources/img/otter4.jpg" data-image-role="trigger" data-image-title="Night Fever" data-image-url="img/otter4.jpg">
+          <img class="thumbnail-image" src="ottergram-resources/img/otter4.jpg" alt="Quarry">
           <span class="thumbnail-title">Quarry</span>
         </a>
       </li>
-
       <li class="thumbnail-item">
-        <a href="#">
-          <img class="thumbnail-image" src="ottergram-resources/img/otter1.jpg" alt="Barry">
+        <a href="ottergram-resources/img/otter5.jpg" data-image-role="trigger" data-image-title="To Love Somebody" data-image-url="img/otter5.jpg">
+          <img class="thumbnail-image" src="ottergram-resources/img/otter5.jpg" alt="Barry">
           <span class="thumbnail-title">Barry</span>
-        </a>
-      </li>
-      <li class="thumbnail-item">
-        <a href="#">
-          <img class="thumbnail-image" src="ottergram-resources/img/otter2.jpg" alt="Garry">
-          <span class="thumbnail-title">Garry</span>
-        </a>
-      </li>
-      <li class="thumbnail-item">
-        <a href="#">
-          <img class="thumbnail-image" src="ottergram-resources/img/otter3.jpg" alt="Larry">
-          <span class="thumbnail-title">Larry</span>
-        </a>
-      </li>
-      <li class="thumbnail-item">
-        <a href="#">
-          <img class="thumbnail-image" src="ottergram-resources/img/flexboxfroggylvl24.PNG" alt="Completed FlexBox Froggy">
-          <span class="thumbnail-title">FlexBox</span>
-        </a>
-      </li>
-      <li class="thumbnail-item">
-        <a href="#">
-          <img class="thumbnail-image" src="ottergram-resources/img/grid_garden_complete.PNG" alt="Completed Grid Garden">
-          <span class="thumbnail-title">GridGarden</span>
         </a>
       </li>
     </ul>
 
+
+<!-- <div id = "btnUp" class="upArrow" style='font-size:100px;'>&#8679;</div>
+<div id = "btnDwn" class="downArrow" style='font-size:100px;'>&#8681;</div> -->
+<div class="buttons">
+<a href="#" class="previous round" id ="prevBtn">&#8249;</a>
+<a href="#" class="next round" id ="nextBtn">&#8250;</a>
+</div>
+
     <div class="detail-image-container">
-      <div class="detail-image-frame">
-        <img class="detail-image" src="ottergram-resources/img/otter1.jpg" alt="">
-        <span class="detail-image-title">Stayin' Alive</span>
+      <div class="detail-image-frame" data-image-role="frame">
+        <img class="detail-image" data-image-role="target" src="ottergram-resources/img/otter1.jpg" alt="">
+        <span class="detail-image-title" data-image-role="title">Stayin' Alive</span>
       </div>
     </div>
   </main>
+  <script src="scripts/main.js" charset="utf-8">
+  </script>
 </body>
 
 </html>
