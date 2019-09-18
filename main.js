@@ -120,7 +120,7 @@ function listenDown() {
       console.log(nextDwn);
       switch (nextDwn) {
         case 1:
-          detailTitle.textConten  t = "Stayin' Alive";
+          detailTitle.textContent = "Stayin' Alive";
           break;
         case 2:
           detailTitle.textContent = "How Deep Is Your Love";
